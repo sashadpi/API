@@ -21,8 +21,7 @@ const books = [
 		pages: 254,
 		description:
 			"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da",
-		website:
-			'http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/',
+		website: 'http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/',
 	},
 	{
 		isbn: '9781449337711',
@@ -58,14 +57,12 @@ const books = [
 		pages: 278,
 		description:
 			'No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\"You Don’t Know JS\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st',
-		website:
-			'https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond',
+		website: 'https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond',
 	},
 	{
 		isbn: '9781491950296',
 		title: 'Programming JavaScript Applications',
-		subTitle:
-			'Robust Web Architecture with Node, HTML5, and Modern JS Libraries',
+		subTitle: 'Robust Web Architecture with Node, HTML5, and Modern JS Libraries',
 		author: 'Eric Elliott',
 		publish_date: '2014-07-01T00:00:00.000Z',
 		publisher: "O'Reilly Media",

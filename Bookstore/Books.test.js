@@ -20,7 +20,7 @@ describe('Get books', () => {
 	test('Get all book and verify first book', async () => {
 		const response = await BooksControllers.getAllBooks();
 		const books = response.data.books;
-		const subTitles = response.data.books.map(book => book.subTitle);
+		const subTitles = response.data.books.map((book) => book.subTitle);
 		const firstBook = books[0];
 		expect(response.status).toBe(200);
 		expect(firstBook).toHaveProperty('isbn');
