@@ -1,8 +1,8 @@
 const axios = require('axios').default;
-const BooksControllers = require('../Controllers/BooksControllers.js');
-const UserController = require('../Controllers/UserController.js');
-const { books } = require('../test-data/books.js');
-const { users } = require('../test-data/users.js');
+const BooksControllers = require('../../Controllers/BooksControllers.js');
+const UserController = require('../../Controllers/UserController.js');
+const { books } = require('../../test-data/books.js');
+const { users } = require('../../test-data/users.js');
 
 let token;
 beforeAll(async () => {

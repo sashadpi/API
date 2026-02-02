@@ -1,5 +1,5 @@
-const UserController = require('../Controllers/UserController');
-const { users } = require('../test-data/users');
+const UserController = require('../../Controllers/UserController');
+const { users } = require('../../test-data/users');
 
 const axios = require('axios').default;
 let token;
